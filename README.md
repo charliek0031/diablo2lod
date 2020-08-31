@@ -23,7 +23,7 @@ When the game ends, there will be several things happening.
 1) It will move the files in the official Save Game folder back to the selfcreated Save Game folder.
 2) It will remove the .org files made with Atma (I like to make the best chars and yes, I use the gear I exported, call it a cheat :P)
 3) It them looks whether you are connected to the internet.
-4.1) If NO, it makes a copy of your savegames folder to $HOST/Documents/YYYYmmDD_HHMMSS_User/
+4.1) If NO, it makes a copy of your savegames folder to ~/Documents/[YYYYmmdd_HHMMSS_username]
 4.2) If YES, it makes a backup using rclone of all the savegames in gdrive.
 
 # Notes
